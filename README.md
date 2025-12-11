@@ -35,7 +35,7 @@ The Emergency Room is currently operating with an average wait time of 35.26 min
 
 **Operational Snapshot:**
 
-<img width="1361" height="764" alt="hospital_dashboard" src="https://github.com/user-attachments/assets/43e4f168-a542-4873-b0b2-a88a091b1af2" />
+<img width="1362" height="763" alt="hospital_dashboard" src="https://github.com/user-attachments/assets/2b4e76b2-a11d-4192-9ed5-26c4fbe45ed4" />
 
 ## Insights Deep Dive
 
