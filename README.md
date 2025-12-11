@@ -9,8 +9,9 @@
 The analysis adopts a hybrid approach: Looker Studio is used for real-time monitoring of patient volume and demographics, while SQL is used to investigate the root causes of wait time inefficiencies.
 
 **Links to Project Files:**
+* Dataset used in the project: https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/file?filename=Hospital+ER.csv
 * Interactive Dashboard: https://lookerstudio.google.com/s/oEsq3Yu0Gic
-* SQL Scripts: [Link to your .sql file]
+* [SQL Script](https://github.com/ahmetbabacan-dev/hospital-er-analysis/blob/main/hospital.sql)
 
 **Data Structure**
 * The original raw dataset contains one fact table that contains data about each visit, which is then normalized into 3 tables using SQL Server: ```visits``` (fact table), ```departments```, and ```patients```.
@@ -32,7 +33,8 @@ The analysis adopts a hybrid approach: Looker Studio is used for real-time monit
 
 The Emergency Room is currently operating with an average wait time of 35.26 minutes and an average satisfaction score of 4.99/10. The data reveals a systemic capacity issue where nearly 60% of patients are waiting longer than the 30-minute target. While "General Practice" receives the highest volume of patients, operational inefficiencies are present across all departments, with particular bottlenecks occurring during early morning hours (3:00 AM – 7:00 AM).
 
-Operational Snapshot:
+**Operational Snapshot:**
+
 <img width="1361" height="764" alt="hospital_dashboard" src="https://github.com/user-attachments/assets/43e4f168-a542-4873-b0b2-a88a091b1af2" />
 
 ## Insights Deep Dive
