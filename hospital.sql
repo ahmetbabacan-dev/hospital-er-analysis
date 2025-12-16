@@ -32,7 +32,7 @@ SELECT DISTINCT department_referral FROM visits;
 
 -- Create patients table
 CREATE TABLE patients (
-    patient_id VARCHAR(20) PRIMARY KEY, -- data type should be the same as the visits.patient_id table to be a FK
+    patient_id VARCHAR(20) PRIMARY KEY,
     patient_gender VARCHAR(2),
     patient_age SMALLINT,
     patient_first_initial CHAR(1),
@@ -186,4 +186,5 @@ WITH department_wait_times AS (
 )
 SELECT department_name, avg_wait_time AS has_longer_than_avg_waittime
 FROM department_wait_times
+
 WHERE avg_wait_time > (SELECT AVG(patient_waittime) FROM visits);
